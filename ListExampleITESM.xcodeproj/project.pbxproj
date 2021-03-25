@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		891CAB9A260D1A280096A40E /* ListExampleITESMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891CAB99260D1A280096A40E /* ListExampleITESMApp.swift */; };
-		891CAB9C260D1A280096A40E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891CAB9B260D1A280096A40E /* ContentView.swift */; };
 		891CAB9E260D1A2A0096A40E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 891CAB9D260D1A2A0096A40E /* Assets.xcassets */; };
 		891CABA1260D1A2A0096A40E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 891CABA0260D1A2A0096A40E /* Preview Assets.xcassets */; };
 		891CABAA260D1CC00096A40E /* CountryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891CABA9260D1CC00096A40E /* CountryListView.swift */; };
+		891CABB5260D22240096A40E /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891CABB4260D22240096A40E /* CountryModel.swift */; };
+		891CABB8260D22B40096A40E /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891CABB7260D22B40096A40E /* CountryViewController.swift */; };
+		891CABBB260D296C0096A40E /* CountryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891CABBA260D296C0096A40E /* CountryDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		891CAB96260D1A280096A40E /* ListExampleITESM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListExampleITESM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		891CAB99260D1A280096A40E /* ListExampleITESMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExampleITESMApp.swift; sourceTree = "<group>"; };
-		891CAB9B260D1A280096A40E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		891CAB9D260D1A2A0096A40E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		891CABA0260D1A2A0096A40E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		891CABA2260D1A2A0096A40E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		891CABA9260D1CC00096A40E /* CountryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListView.swift; sourceTree = "<group>"; };
+		891CABB4260D22240096A40E /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		891CABB7260D22B40096A40E /* CountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
+		891CABBA260D296C0096A40E /* CountryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				891CAB99260D1A280096A40E /* ListExampleITESMApp.swift */,
-				891CAB9B260D1A280096A40E /* ContentView.swift */,
 				891CAB9D260D1A2A0096A40E /* Assets.xcassets */,
 				891CABA2260D1A2A0096A40E /* Info.plist */,
 				891CAB9F260D1A2A0096A40E /* Preview Content */,
 				891CABA9260D1CC00096A40E /* CountryListView.swift */,
+				891CABB4260D22240096A40E /* CountryModel.swift */,
+				891CABB7260D22B40096A40E /* CountryViewController.swift */,
+				891CABBA260D296C0096A40E /* CountryDetailView.swift */,
 			);
 			path = ListExampleITESM;
 			sourceTree = "<group>";
@@ -141,9 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				891CAB9C260D1A280096A40E /* ContentView.swift in Sources */,
 				891CAB9A260D1A280096A40E /* ListExampleITESMApp.swift in Sources */,
+				891CABB8260D22B40096A40E /* CountryViewController.swift in Sources */,
 				891CABAA260D1CC00096A40E /* CountryListView.swift in Sources */,
+				891CABB5260D22240096A40E /* CountryModel.swift in Sources */,
+				891CABBB260D296C0096A40E /* CountryDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

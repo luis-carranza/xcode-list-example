@@ -8,8 +8,23 @@
 import SwiftUI
 
 struct CountryListView: View {
+    
+    //Inject the Country Model depenendency
+    var countryController = CountryViewController()
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            
+            List(countryController.countryModelData) { country in
+                NavigationLink(
+                    destination: CountryDetailView(country: country),
+                    label: {
+                        Text(country.countryName)
+                    })
+            }
+            .navigationBarTitle("Countries")
+        }
     }
 }
 
