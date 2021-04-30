@@ -10,7 +10,7 @@ import SwiftUI
 struct CountryListView: View {
     
     //Inject the Country Model depenendency
-    var countryController = CountryViewController()
+    @ObservedObject var countryController = CountryViewController()
     
     
     var body: some View {
@@ -30,7 +30,7 @@ struct CountryListView: View {
                     Button(action: {
                         print("button pressed")
                         
-                       // countryController.addCountry(country: CountryModel(id: UUID(), countryName: "China", population: "1000M"))
+                        countryController.addCountry(country: CountryModel(id: UUID(), countryName: "China", population: "1000M"))
                     }) {
                         Image(systemName: "plus")
                         //Text("add")
