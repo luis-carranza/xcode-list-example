@@ -14,6 +14,7 @@
 		891CABB5260D22240096A40E /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891CABB4260D22240096A40E /* CountryModel.swift */; };
 		891CABB8260D22B40096A40E /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891CABB7260D22B40096A40E /* CountryViewController.swift */; };
 		891CABBB260D296C0096A40E /* CountryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891CABBA260D296C0096A40E /* CountryDetailView.swift */; };
+		895DA429263CA92F008955EC /* AddCityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895DA428263CA92F008955EC /* AddCityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		891CABB4260D22240096A40E /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
 		891CABB7260D22B40096A40E /* CountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
 		891CABBA260D296C0096A40E /* CountryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailView.swift; sourceTree = "<group>"; };
+		895DA428263CA92F008955EC /* AddCityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				891CABB4260D22240096A40E /* CountryModel.swift */,
 				891CABB7260D22B40096A40E /* CountryViewController.swift */,
 				891CABBA260D296C0096A40E /* CountryDetailView.swift */,
+				895DA428263CA92F008955EC /* AddCityView.swift */,
 			);
 			path = ListExampleITESM;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				891CAB9A260D1A280096A40E /* ListExampleITESMApp.swift in Sources */,
+				895DA429263CA92F008955EC /* AddCityView.swift in Sources */,
 				891CABB8260D22B40096A40E /* CountryViewController.swift in Sources */,
 				891CABAA260D1CC00096A40E /* CountryListView.swift in Sources */,
 				891CABB5260D22240096A40E /* CountryModel.swift in Sources */,

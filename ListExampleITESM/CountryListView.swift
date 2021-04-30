@@ -11,7 +11,8 @@ struct CountryListView: View {
     
     //Inject the Country Model depenendency
     @ObservedObject var countryController = CountryViewController()
-    
+   
+    @State var isPresented: Bool = false
     
     var body: some View {
         NavigationView {
@@ -29,12 +30,15 @@ struct CountryListView: View {
                 trailing:
                     Button(action: {
                         print("button pressed")
-                        
+                        isPresented.toggle()
                         countryController.addCountry(country: CountryModel(id: UUID(), countryName: "China", population: "1000M"))
                     }) {
                         Image(systemName: "plus")
                         //Text("add")
                     }
+                    .fullScreenCover(isPresented: $isPresented, content:
+                        AddCityView.init
+                    )
             )
   
         }

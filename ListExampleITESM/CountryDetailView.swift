@@ -9,6 +9,8 @@ import SwiftUI
 
 struct CountryDetailView: View {
     
+
+    
     let country: CountryModel
     
     var body: some View {
