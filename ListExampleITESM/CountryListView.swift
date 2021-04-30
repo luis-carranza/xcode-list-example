@@ -22,8 +22,21 @@ struct CountryListView: View {
                     label: {
                         Text(country.countryName)
                     })
+   
             }
-            .navigationBarTitle("Countries")
+            .navigationBarTitle("Countries", displayMode: .inline)
+            .navigationBarItems(
+                trailing:
+                    Button(action: {
+                        print("button pressed")
+                        
+                       // countryController.addCountry(country: CountryModel(id: UUID(), countryName: "China", population: "1000M"))
+                    }) {
+                        Image(systemName: "plus")
+                        //Text("add")
+                    }
+            )
+  
         }
     }
 }
