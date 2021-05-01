@@ -28,17 +28,12 @@ struct CountryListView: View {
             .navigationBarTitle("Countries", displayMode: .inline)
             .navigationBarItems(
                 trailing:
-                    Button(action: {
-                        print("button pressed")
-                        isPresented.toggle()
-                        countryController.addCountry(country: CountryModel(id: UUID(), countryName: "China", population: "1000M"))
-                    }) {
-                        Image(systemName: "plus")
-                        //Text("add")
-                    }
-                    .fullScreenCover(isPresented: $isPresented, content:
-                        AddCityView.init
-                    )
+            
+                    NavigationLink(
+                        destination: AddCityView(countryController: $countryController.countryModelData),
+                        label: {
+                            Image(systemName: "plus")
+                        })
             )
   
         }

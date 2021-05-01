@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct ListExampleITESMApp: App {
+    
+    @ObservedObject var countryController = CountryViewController()
+    
     var body: some Scene {
         WindowGroup {
             CountryListView()
