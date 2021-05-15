@@ -17,13 +17,16 @@ struct CountryListView: View {
     var body: some View {
         NavigationView {
             
-            List(countryController.countryModelData) { country in
-                NavigationLink(
-                    destination: CountryDetailView(country: country),
-                    label: {
-                        Text(country.countryName)
-                    })
-   
+            List{
+                ForEach(countryController.countryModelData){
+                    country in
+                    NavigationLink(
+                        destination: CountryDetailView(country: country),
+                        label: {
+                            Text(country.countryName)
+                        })//Navigation Link
+                }.onDelete(perform: deleteItem)
+               
             }
             .navigationBarTitle("Countries", displayMode: .inline)
             .navigationBarItems(
@@ -37,6 +40,11 @@ struct CountryListView: View {
             )
   
         }
+    }
+    
+    //MARK:  DELETE METHID
+    private func deleteItem(at indexSet: IndexSet){
+        self.countryController.countryModelData.remove(atOffsets: indexSet)
     }
 }
 
