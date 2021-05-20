@@ -8,9 +8,9 @@
 import Foundation
 import SwiftUI
 
-class CountryViewController: ObservableObject {
+class CountryViewController {
     
-    @Published var countryModelData: [CountryModel]
+     var countryModelData: [CountryModel]
     
     init() {
         // Let' incllude some inital Data to the Data model.

@@ -10,7 +10,7 @@ import SwiftUI
 struct CountryListView: View {
     
     //Inject the Country Model depenendency
-    @ObservedObject var countryController = CountryViewController()
+    @State var countryController = CountryViewController()
    
     @State var isPresented: Bool = false
     
