@@ -6,11 +6,15 @@
 //
 
 import SwiftUI
+import Firebase
+
 
 @main
 struct ListExampleITESMApp: App {
-    
-    //@State var countryController = CountryViewController()
+
+    init(){
+        FirebaseApp.configure()
+    }
     
     var body: some Scene {
         WindowGroup {

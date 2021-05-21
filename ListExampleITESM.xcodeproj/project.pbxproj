@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7238ADD09A63E25CE7931DA4 /* Pods_ListExampleITESM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A03B8F60EBBCF64B2CD439B5 /* Pods_ListExampleITESM.framework */; };
+		890C460B265603DD00DB02D8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 890C460A265603DD00DB02D8 /* GoogleService-Info.plist */; };
 		891CAB9A260D1A280096A40E /* ListExampleITESMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891CAB99260D1A280096A40E /* ListExampleITESMApp.swift */; };
 		891CAB9E260D1A2A0096A40E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 891CAB9D260D1A2A0096A40E /* Assets.xcassets */; };
 		891CABA1260D1A2A0096A40E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 891CABA0260D1A2A0096A40E /* Preview Assets.xcassets */; };
@@ -15,9 +17,15 @@
 		891CABB8260D22B40096A40E /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891CABB7260D22B40096A40E /* CountryViewController.swift */; };
 		891CABBB260D296C0096A40E /* CountryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891CABBA260D296C0096A40E /* CountryDetailView.swift */; };
 		895DA429263CA92F008955EC /* AddCityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895DA428263CA92F008955EC /* AddCityView.swift */; };
+		89ADBCB82655EC81001AF546 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ADBCB72655EC81001AF546 /* AuthModel.swift */; };
+		89ADBCBA2655ED37001AF546 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ADBCB92655ED37001AF546 /* AuthView.swift */; };
+		89DF063D2655FD45006FC78E /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF063C2655FD45006FC78E /* AuthViewController.swift */; };
+		89DF063F2655FD54006FC78E /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF063E2655FD54006FC78E /* SignupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2AA913588A79CFB16AAB9488 /* Pods-ListExampleITESM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListExampleITESM.release.xcconfig"; path = "Target Support Files/Pods-ListExampleITESM/Pods-ListExampleITESM.release.xcconfig"; sourceTree = "<group>"; };
+		890C460A265603DD00DB02D8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		891CAB96260D1A280096A40E /* ListExampleITESM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListExampleITESM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		891CAB99260D1A280096A40E /* ListExampleITESMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExampleITESMApp.swift; sourceTree = "<group>"; };
 		891CAB9D260D1A2A0096A40E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -28,6 +36,12 @@
 		891CABB7260D22B40096A40E /* CountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
 		891CABBA260D296C0096A40E /* CountryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailView.swift; sourceTree = "<group>"; };
 		895DA428263CA92F008955EC /* AddCityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCityView.swift; sourceTree = "<group>"; };
+		89ADBCB72655EC81001AF546 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
+		89ADBCB92655ED37001AF546 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		89DF063C2655FD45006FC78E /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		89DF063E2655FD54006FC78E /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		9845ADCB2005DC19135D2310 /* Pods-ListExampleITESM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListExampleITESM.debug.xcconfig"; path = "Target Support Files/Pods-ListExampleITESM/Pods-ListExampleITESM.debug.xcconfig"; sourceTree = "<group>"; };
+		A03B8F60EBBCF64B2CD439B5 /* Pods_ListExampleITESM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ListExampleITESM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7238ADD09A63E25CE7931DA4 /* Pods_ListExampleITESM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +61,8 @@
 			children = (
 				891CAB98260D1A280096A40E /* ListExampleITESM */,
 				891CAB97260D1A280096A40E /* Products */,
+				EB7F2AC4286F3893030E1887 /* Pods */,
+				C3DD842DE5385885BFA9F4A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,9 +77,11 @@
 		891CAB98260D1A280096A40E /* ListExampleITESM */ = {
 			isa = PBXGroup;
 			children = (
+				89ADBCB62655EC6C001AF546 /* Auth */,
 				891CAB99260D1A280096A40E /* ListExampleITESMApp.swift */,
 				891CAB9D260D1A2A0096A40E /* Assets.xcassets */,
 				891CABA2260D1A2A0096A40E /* Info.plist */,
+				890C460A265603DD00DB02D8 /* GoogleService-Info.plist */,
 				891CAB9F260D1A2A0096A40E /* Preview Content */,
 				891CABA9260D1CC00096A40E /* CountryListView.swift */,
 				891CABB4260D22240096A40E /* CountryModel.swift */,
@@ -81,6 +100,34 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		89ADBCB62655EC6C001AF546 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				89ADBCB72655EC81001AF546 /* AuthModel.swift */,
+				89ADBCB92655ED37001AF546 /* AuthView.swift */,
+				89DF063C2655FD45006FC78E /* AuthViewController.swift */,
+				89DF063E2655FD54006FC78E /* SignupView.swift */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
+		C3DD842DE5385885BFA9F4A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A03B8F60EBBCF64B2CD439B5 /* Pods_ListExampleITESM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB7F2AC4286F3893030E1887 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9845ADCB2005DC19135D2310 /* Pods-ListExampleITESM.debug.xcconfig */,
+				2AA913588A79CFB16AAB9488 /* Pods-ListExampleITESM.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -88,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 891CABA5260D1A2A0096A40E /* Build configuration list for PBXNativeTarget "ListExampleITESM" */;
 			buildPhases = (
+				2438B97FDA7DB94B98103CB0 /* [CP] Check Pods Manifest.lock */,
 				891CAB92260D1A280096A40E /* Sources */,
 				891CAB93260D1A280096A40E /* Frameworks */,
 				891CAB94260D1A280096A40E /* Resources */,
+				AA732C0A6A5840F9644F77E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,10 +189,53 @@
 			files = (
 				891CABA1260D1A2A0096A40E /* Preview Assets.xcassets in Resources */,
 				891CAB9E260D1A2A0096A40E /* Assets.xcassets in Resources */,
+				890C460B265603DD00DB02D8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2438B97FDA7DB94B98103CB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ListExampleITESM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA732C0A6A5840F9644F77E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ListExampleITESM/Pods-ListExampleITESM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ListExampleITESM/Pods-ListExampleITESM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ListExampleITESM/Pods-ListExampleITESM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		891CAB92260D1A280096A40E /* Sources */ = {
@@ -152,9 +244,13 @@
 			files = (
 				891CAB9A260D1A280096A40E /* ListExampleITESMApp.swift in Sources */,
 				895DA429263CA92F008955EC /* AddCityView.swift in Sources */,
+				89ADBCB82655EC81001AF546 /* AuthModel.swift in Sources */,
 				891CABB8260D22B40096A40E /* CountryViewController.swift in Sources */,
+				89DF063F2655FD54006FC78E /* SignupView.swift in Sources */,
 				891CABAA260D1CC00096A40E /* CountryListView.swift in Sources */,
 				891CABB5260D22240096A40E /* CountryModel.swift in Sources */,
+				89ADBCBA2655ED37001AF546 /* AuthView.swift in Sources */,
+				89DF063D2655FD45006FC78E /* AuthViewController.swift in Sources */,
 				891CABBB260D296C0096A40E /* CountryDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +376,7 @@
 		};
 		891CABA6260D1A2A0096A40E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9845ADCB2005DC19135D2310 /* Pods-ListExampleITESM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +399,7 @@
 		};
 		891CABA7260D1A2A0096A40E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA913588A79CFB16AAB9488 /* Pods-ListExampleITESM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

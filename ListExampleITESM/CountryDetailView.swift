@@ -13,7 +13,7 @@ struct CountryDetailView: View {
         
         ZStack { 
             
-            Image("Mexico")
+            Image("Canada")
                 .resizable()
                 .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                 .blur(radius: 7.0)
