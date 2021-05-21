@@ -12,6 +12,7 @@ struct CountryModel: Identifiable, Hashable {
     var id: UUID
     var countryName: String
     var population: String
+    var image: String?
     
     
     func hash(into hasher: inout Hasher) {

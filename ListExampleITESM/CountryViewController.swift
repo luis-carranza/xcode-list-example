@@ -15,9 +15,9 @@ class CountryViewController {
     init() {
         // Let' incllude some inital Data to the Data model.
         self.countryModelData = [
-            CountryModel(id: UUID(), countryName: "Mexico", population: "200M"),
-            CountryModel(id: UUID(), countryName: "USA", population: "500M"),
-            CountryModel(id: UUID(), countryName: "Colombia", population: "100M")
+            CountryModel(id: UUID(), countryName: "Mexico", population: "200M", image: "Mexico"),
+            CountryModel(id: UUID(), countryName: "Canada", population: "500M", image:"Canada"),
+            CountryModel(id: UUID(), countryName: "Colombia", population: "100M",  image: nil)
         ]
     }
     
